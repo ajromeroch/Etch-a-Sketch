@@ -1,0 +1,64 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: PressStart, sans-serif;
+}
+
+@font-face {
+    font-family: 'PressStart';
+    src: url('PressStart2P-Regular.ttf')
+}
+
+body {
+    background-color: orange;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    
+}
+
+.title-container {
+    height: 100px;
+    line-height: 100px;
+}
+
+.etch-container {
+    background-color: white;
+    height: 600px;
+    width: 600px;
+    border: 10px solid black;
+}
+
+.buttons-container {
+    margin: 20px 20px;
+    
+}
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+
+main {
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    color: black;
+    background-color: red;
+    border: 3px solid black;
+    padding: 3px;
+}
+
+button:hover {
+    transform: scale(1.1);
+}
